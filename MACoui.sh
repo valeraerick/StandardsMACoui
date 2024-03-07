@@ -34,7 +34,7 @@ validar_mac() {
 if ! validar_mac "$mac_address";
 then
     echo -e "${redColour}[X] formato invalido: $mac_address ${endColour}"
-    echo -e " ${purpleColour}[!]uso:${endColour}./MACoui <MAC address> \n ${purpleColour}[!]formato:${endColour} \n 00-11-22-33-44-55 \n 00:11:22:33:44:55 \n 00.11.22.33.44.55"
+    echo -e " ${purpleColour}[!]uso:${endColour}MACoui <MAC address> \n ${purpleColour}[!]formato:${endColour} \n 00-11-22-33-44-55 \n 00:11:22:33:44:55 \n 00.11.22.33.44.55"
     exit 1
 fi
 

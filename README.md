@@ -37,7 +37,7 @@ cd StandardsMACoui
 2. Dar permisos de ejecución
 
 ```bash
-chmod 755MACoui.sh
+chmod 755 MACoui.sh
 ```
 
 3. Mover script a la ruta 
